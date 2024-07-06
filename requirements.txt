@@ -1,6 +1,5 @@
 # Conda packages
 numpy
 tqdm
-argparse
 python-dateutil
 jupyter

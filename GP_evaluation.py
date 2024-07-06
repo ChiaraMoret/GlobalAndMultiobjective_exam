@@ -59,7 +59,7 @@ def _dot_product(u,v):
     return prod%2
     
 def WH_transform(truth_table):
-    ''''
+    '''
     Naive implementation of the Walsh–Hadamard Transform of a given truth table
     '''
     vecs = truth_table.keys()
@@ -67,7 +67,7 @@ def WH_transform(truth_table):
     return [compute_WH(vec) for vec in vecs]
 
 def WH_spectrum(truth_table):
-     '''
+    '''
     Computes the Fast Walsh–Hadamard spectrum using the naive implementation of the Walsh–Hadamard Transform algorithm.
     It is necessary as the first element is not the weight of the function
     '''

@@ -25,6 +25,8 @@ To create an environment with the required packages:
 ```sh
 # Conda packages
 conda create --name NLbooleans --file requirements.txt
+
+
 # Pip packages
 pip install anytree tqdm
 ```
